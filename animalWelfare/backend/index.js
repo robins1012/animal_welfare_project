@@ -3,7 +3,6 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 const app= express();
 const cors=require("cors");
-// const mongoUrl ='mongodb+srv://masteranuragch:masteranuragch@cluster0.yja1psc.mongodb.net/animal-welfare?retryWrites=true&w=majority';
 const categoryRoutes= require('./routes/category');
 const petRoutes=require('./routes/pet');
 const adoptionRoutes=require('./routes/adoption');
